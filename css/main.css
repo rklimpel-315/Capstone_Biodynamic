@@ -97,6 +97,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+
 html {
   box-sizing: border-box;
 }
@@ -105,33 +106,116 @@ html {
   box-sizing: inherit;
 }
 
+
 body{
-  text-align: center;
+  text-align: left;
 }
 
+
 h1, h2, h3, h4 {
-  font-family: 'Vollkorn', serif;
-  text-transform: uppercase;
-  font-style: italic;
+  font-family: 'Montserrat', sans-serif;
+  font-style: bold;
+  text-transform: uppercase; 
+}
+
+h2 {
+  font-size: 2em;
 }
 
 img {
   max-width: 100%;
+}
+
+.photo {
+  max-width: 100%;
   position: relative;
+  z-index: -1;
+
 }
 
-p {font-family: 'Open Sans', sans-serif;
+p {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2em;
 }
 
 
 
+/* Text box areas */
+
+.about, .biodynamic, .inspiration, .ex_brand, .process, .solution, 
+.geovsaccent, .deliverables, .label, .flexability, .research, .rachel{
+  padding: 10em;
+  color: white;
+  background-color: #214C52;
+
+}
+
+/* Text box colors */
+.about {
+  background-color: #334869;
+}
+
+.biodynamic {
+  background-color: #777A40;
+}
+
+.inspiration{
+  background-color: #8689B9;
+}
+
+.ex_brand {
+  background-color: #EAD38B;
+}
+
+.process {
+  background-color: #D57B4E;
+}
+
+.geovsaccent{
+  background-color: #C2BC85;
+}
+
+.deliverables { 
+  background-color: #5C6A7B;
+}
+
+.label{ 
+  background-color: #AB8EA3;
+}
+
+.flexability {
+  background-color: #F4825B;
+}
+
+.research
+{
+  background-color: #334869;
+}
+
+.rachel{
+  background-color: #214C52;
+  text-align: center;
+}
+/* Text box colors end */
 
 
 
+.mcvbrand, .garden {
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
 
+.icons {
+  padding: 10em;
+}
 
+.preps, .winery { 
+  padding-bottom: 5em;
+}
 
-
+.labelseries img {
+  padding: 4em;
+}
 
 
 
