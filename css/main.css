@@ -126,66 +126,191 @@ img {
   max-width: 100%;
 }
 
-.photo {
-  max-width: 100%;
-  position: relative;
-  z-index: -1;
-
-}
-
 p {
   font-family: 'Montserrat', sans-serif;
   line-height: 2em;
 }
 
+a{
+  text-decoration: none;
+  color: #BFFF00;
+}
+
+a:hover{
+  color: orange;
+}
 
 
 /* Text box areas */
 
 .about, .biodynamic, .inspiration, .ex_brand, .process, .solution, 
-.geovsaccent, .deliverables, .label, .flexability, .research, .rachel{
+.inspiration_1, .inspiration_2, .geovsaccent, .deliverables,.label, 
+.flexability, .research, .rachel{
   padding: 10em;
   color: white;
   background-color: #214C52;
-
 }
 
-/* Text box colors */
+/* Parallax effect 
+    Link: https://www.w3schools.com/howto/howto_css_parallax.asp */
+
+.parallaxify {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Text box colors & images */
+
+      #titleimage{
+        background-image: url("../img/vineyard_1.jpg");
+        height: 800px;
+        background-size: 100% 100%;
+        background-position: 0% 100%;
+        -webkit-background-size: cover;
+      }
+
 .about {
   background-color: #334869;
 }
+
+      #winery{
+        background-image: url("../img/winery.jpg");
+        height: 600px;
+      }
 
 .biodynamic {
   background-color: #777A40;
 }
 
-.inspiration{
+      #soil {
+        background-image: url("../img/soil-2.jpg");
+        height: 600px;
+      }
+
+.inspiration_1{
   background-color: #8689B9;
 }
+
+      #krambambuli{
+        background-image: url("../img/krambambuli.png");
+        height: 800px;
+      }
 
 .ex_brand {
   background-color: #EAD38B;
 }
 
+      #mcvbrand {
+        background-image: url("../img/mcvbrand.png"); 
+        height: 800px;
+      }
+
 .process {
   background-color: #D57B4E;
 }
+
+      #sketch_1 {
+        background-image: url("../img/sketching_1.jpg");
+        height: 800px;
+      }
+
+      #firsticons {
+        background-image: url("../img/firsticons.jpg");
+        height: 800px;
+      }
+
+.solution {
+  background-color: #214C52
+}
+
+      #garden {
+        background-image: url("../img/garden.jpg");
+        height: 600px;
+        background-size: contain;
+        background-position: 0 50px;
+        min-height: 
+
+      }
+
+      #sketch_2 {
+        background-image: url("../img/sketching_2.jpg");
+        height: 800px;
+      }
 
 .geovsaccent{
   background-color: #C2BC85;
 }
 
+      #geoaccent {
+        background-image: url("../img/geoaccent.jpg");
+        height: 800px;
+      }
+
+
 .deliverables { 
   background-color: #5C6A7B;
 }
 
+      #prepsicons {
+        background-image: url("../img/icons_1.jpg");
+        height: 1000px;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        margin: 100px;
+        margin-top: 130px;
+}
+      
+
+      #mcvicons {
+        background-image: url("../img/icons_2.jpg");
+        height: 1000px;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        margin: 100px;
+        margin-top: 40px;
+      }
+
+.inspiration_2 {
+  background-color: #8689B9;
+}
+    
+      #creekmap {
+        background-image: url("../img/creekmap.png");
+        height: 500px;
+        background-size: contain;
+        background-position: 0 50px;
+        background-color: #f1f0ef;
+      }
+
 .label{ 
   background-color: #AB8EA3;
 }
+      #red {
+        background-image: url("../img/label_red_z.jpg");
+        height: 800px;
+      }
+
+      #white {
+        background-image: url("../img/label_white_z.jpg");
+        height: 800px;
+      }
+
+      #dessert{
+        background-image: url("../img/label_dessert_z.jpg");
+        height: 800px;
+      }
 
 .flexability {
   background-color: #F4825B;
 }
+
+      #mockup{
+        background-image: url("../img/mockup.jpg");
+        height: 800px;
+      }
+
 
 .research
 {
